@@ -8,9 +8,6 @@ describe("GET /planets", () => {
 		const response = await request(app)
 			.get(API_URL.PLANETS_URL.BASE_URL)
 			.expect("Content-Type", /json/)
-			.expect(200)
-			.then((response) => {
-				console.log(response.body);
-			});
+			.expect(200);
 	});
 });
