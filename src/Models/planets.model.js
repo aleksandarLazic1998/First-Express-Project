@@ -22,7 +22,13 @@ function loadPlanetsData() {
 	});
 }
 
+function getPlanetById(id) {
+	const planet = planets.find((planet) => planet.kepid === id);
+	return planet;
+}
+
 module.exports = {
 	planets,
 	loadPlanetsData,
+	getPlanetById,
 };
