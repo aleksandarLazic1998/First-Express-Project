@@ -10,7 +10,7 @@ describe("GET /planets", () => {
 			.expect("Content-Type", /json/)
 			.expect(200)
 			.then((response) => {
-				console.log(response);
+				console.log(response.body);
 			});
 	});
 });
