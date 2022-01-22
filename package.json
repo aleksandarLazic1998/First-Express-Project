@@ -1,0 +1,18 @@
+{
+	"name": "first-express-project",
+	"version": "1.0.0",
+	"description": "Express Project With CRUD operations and without Database",
+	"main": "server.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aleksandarLazic1998/First-Express-Project.git"
+	},
+	"keywords": [],
+	"author": "Aleksandar Lazic",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/aleksandarLazic1998/First-Express-Project/issues"
+	},
+	"homepage": "https://github.com/aleksandarLazic1998/First-Express-Project#readme"
+}
