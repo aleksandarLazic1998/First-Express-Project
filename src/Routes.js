@@ -6,6 +6,9 @@ const API_URL = {
 	PLANETS_URL: {
 		BASE_URL: "/planets",
 	},
+	LAUNCHES_URL: {
+		BASE_URL: "/launches",
+	},
 };
 
 module.exports = API_URL;
