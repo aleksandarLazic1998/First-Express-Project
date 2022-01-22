@@ -19,6 +19,7 @@
 	"homepage": "https://github.com/aleksandarLazic1998/First-Express-Project#readme",
 	"dependencies": {
 		"cors": "^2.8.5",
+		"csv-parse": "^5.0.4",
 		"env-cmd": "^10.1.0",
 		"express": "^4.17.2",
 		"morgan": "^1.10.0"
