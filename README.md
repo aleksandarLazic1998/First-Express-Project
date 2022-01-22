@@ -16,6 +16,8 @@
 - express: https://www.npmjs.com/package/express,
 - env-cmd: https://www.npmjs.com/package/env-cmd,
 - nodemon: https://www.npmjs.com/package/nodemon,
+- cors: https://www.npmjs.com/package/cors,
+- morgan: https://www.npmjs.com/package/morgan,
 
 ## Technologies:
 
