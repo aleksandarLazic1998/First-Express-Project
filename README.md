@@ -19,6 +19,9 @@
 - cors: https://www.npmjs.com/package/cors,
 - morgan: https://www.npmjs.com/package/morgan,
 - csv-parse: https://www.npmjs.com/package/csv-parse,
+- jest: https://www.npmjs.com/package/jest,
+- supertest: https://www.npmjs.com/package/supertest,
+- husky: https://www.npmjs.com/package/husky
 
 ## Technologies:
 
