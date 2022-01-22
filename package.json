@@ -14,5 +14,9 @@
 	"bugs": {
 		"url": "https://github.com/aleksandarLazic1998/First-Express-Project/issues"
 	},
-	"homepage": "https://github.com/aleksandarLazic1998/First-Express-Project#readme"
+	"homepage": "https://github.com/aleksandarLazic1998/First-Express-Project#readme",
+	"dependencies": {
+		"env-cmd": "^10.1.0",
+		"express": "^4.17.2"
+	}
 }
