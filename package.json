@@ -3,7 +3,9 @@
 	"version": "1.0.0",
 	"description": "Express Project With CRUD operations and without Database",
 	"main": "server.js",
-	"scripts": {},
+	"scripts": {
+		"start:dev": "env-cmd -f .env.local nodemon src/server.js"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/aleksandarLazic1998/First-Express-Project.git"
@@ -18,5 +20,8 @@
 	"dependencies": {
 		"env-cmd": "^10.1.0",
 		"express": "^4.17.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
 	}
 }
