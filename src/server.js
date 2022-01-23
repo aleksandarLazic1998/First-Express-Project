@@ -4,7 +4,6 @@ const app = require("./app");
 const { loadPlanetsData } = require("./Models/planets.model");
 
 const PORT = process.env.PORT;
-
 const server = http.createServer(app);
 
 const loadAllData = async () => {

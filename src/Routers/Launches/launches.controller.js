@@ -1,6 +1,9 @@
 const {
 	checkIfLaunchIsValid,
 	addLaunch,
+	deleteLaunch,
+	getLaunches,
+	getLaunch,
 } = require("../../Models/launches.model");
 
 function httpPostLaunch(req, res) {
@@ -25,6 +28,33 @@ function httpPostLaunch(req, res) {
 	return res.status(responseStatus).json(response);
 }
 
+function httpDeleteLaunch(req, res) {
+	const launchId = +req.params.id;
+	let responseStatus = 200;
+	let response = deleteLaunch(launchId);
+
+	if (deleteLaunch(launchId).error) responseStatus = 404;
+
+	return res.status(responseStatus).json(response);
+}
+
+function httpGetLaunches(_, res) {
+	return res.status(200).json(getLaunches());
+}
+
+function httpGetLaunch(req, res) {
+	const launchId = +req.params.id;
+	let responseStatus = 200;
+	let response = getLaunch(launchId);
+
+	if (getLaunch(launchId)) responseStatus = 404;
+
+	return res.status(responseStatus).json(response);
+}
+
 module.exports = {
 	httpPostLaunch,
+	httpDeleteLaunch,
+	httpGetLaunches,
+	httpGetLaunch,
 };

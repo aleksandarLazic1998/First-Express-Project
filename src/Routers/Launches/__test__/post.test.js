@@ -4,7 +4,7 @@ const app = require("../../../app");
 const API_URL = require("../../../Routes");
 
 describe("POST /planets", () => {
-	test("should respond with status 200 and return data", async () => {
+	test("should respond with status 201 and return data", async () => {
 		const requestBody = {
 			name: "Test 1",
 			date: "1998-11-11",
