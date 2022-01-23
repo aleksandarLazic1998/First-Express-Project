@@ -26,7 +26,7 @@ function deleteLaunch(launchId) {
 }
 
 function getLaunches() {
-	return Array.from(launches);
+	return Array.from(launches.values());
 }
 
 function getLaunch(launchId) {
