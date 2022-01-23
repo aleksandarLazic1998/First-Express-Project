@@ -21,7 +21,8 @@
 - csv-parse: https://www.npmjs.com/package/csv-parse,
 - jest: https://www.npmjs.com/package/jest,
 - supertest: https://www.npmjs.com/package/supertest,
-- husky: https://www.npmjs.com/package/husky
+- husky: https://www.npmjs.com/package/husky,
+- prettier: https://www.npmjs.com/package/prettier,
 
 ## Technologies:
 
