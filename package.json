@@ -7,7 +7,7 @@
     "test": "jest",
     "start:dev": "env-cmd -f .env.local nodemon src/server.js",
     "prepare": "husky install",
-    "pre-commit": "npx pretty-quick & npm test"
+    "pre-commit": "npx pretty-quick"
   },
   "repository": {
     "type": "git",
