@@ -23,6 +23,7 @@
 - supertest: https://www.npmjs.com/package/supertest,
 - husky: https://www.npmjs.com/package/husky,
 - prettier: https://www.npmjs.com/package/prettier,
+- pm2: https://pm2.keymetrics.io/,
 
 ## Technologies:
 
